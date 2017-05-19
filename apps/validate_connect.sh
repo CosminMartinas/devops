@@ -19,7 +19,7 @@ function main()
 {
 echo "<html>" > $opt;
 echo "<head>" >> $opt;
-echo "<TITLE>Adobe Remote Support service</TITLE>" >> $opt;
+echo "<TITLE>ADB Remote Support service</TITLE>" >> $opt;
 echo "<META name="Author" content="MINU">"  >> $opt;
 echo "<META http-equiv="Content-Type" content="text/html\; charset=ISO-8859-5">" >> $opt;
 echo "<link rel="stylesheet" href="ConnectionToHtml.app/Contents/Resources/styles.css">" >> $opt;
@@ -189,8 +189,8 @@ x=$(ls -Art | tail -n 1)
 cp $x ~/Desktop/
 open ~/Desktop/$x
 echo "Data transfer"
-ftp -inv 10.42.136.116 << EOF
-user bomgar DonnaBionica906090
+ftp -inv dest_ipaddress << EOF
+user username password  
 cd /home/bomgar/
 put *.html
 
