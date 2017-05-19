@@ -1,0 +1,58 @@
+PING;10.164.38.17
+PING;csmaster-int.share.corp.adobe.com
+PING;10.164.38.16
+PING;csmaster-ap1.share.corp.adobe.com
+PING;10.164.38.24
+PING;csmaster-ap2.share.corp.adobe.com
+PING;10.164.38.18
+PING;cstraffic-ap1.share.corp.adobe.com
+PING;10.164.38.20
+PING;cstraffic-ap2.share.corp.adobe.com
+PING;172.26.144.72
+PING;172.26.144.62
+PING;cstraffic-eu1.share.corp.adobe.com
+PING;172.26.144.64
+PING;cstraffic-eu2.share.corp.adobe.com
+PING;10.116.44.55
+PING;cstraffic-us1.share.corp.adobe.com
+PING;10.116.44.57
+PING;cstraffic-us2.share.corp.adobe.com
+PING;10.116.44.70
+PING;cstraffic-us3.share.corp.adobe.com
+
+TELNET;Bomgar EMEA Traffic node 1;193.104.215.42;443
+TELNET;Bomgar EMEA Traffic node 2;193.104.215.43;443
+TELNET;Bomgar US Traffic node 1;192.150.16.242;443
+TELNET;Bomgar US Traffic node 2;192.150.16.243;443
+TELNET;Bomgar US Traffic node 3;192.150.16.245;443
+TELNET;Bomgar APAC Public Portal screen.share.adobe.com;103.43.113.13;443
+TELNET;Bomgar APAC Public Portal screen.share.adobe.com;103.43.113.13;80
+TELNET;Bomgar APAC CSMASTER-INT;10.164.38.17;8080
+TELNET;Bomgar APAC Traffic node 1;103.43.113.14;443
+TELNET;Bomgar APAC Traffic node 2;103.43.113.15;443
+
+NSLOOKUP;screen.share.adobe.com
+NSLOOKUP;csmaster-int.share.corp.adobe.com
+NSLOOKUP;csmaster-ap1.share.corp.adobe.com
+NSLOOKUP;csmaster-ap2.share.corp.adobe.com
+NSLOOKUP;cstraffic-ap1.share.adobe.com
+NSLOOKUP;cstraffic-ap2.share.adobe.com
+NSLOOKUP;cstraffic-eu1.share.adobe.com
+NSLOOKUP;cstraffic-eu2.share.adobe.com
+NSLOOKUP;cstraffic-us1.share.adobe.com
+NSLOOKUP;cstraffic-us2.share.adobe.com
+NSLOOKUP;cstraffic-us3.share.adobe.com
+NSLOOKUP;cstraffic-ap1.share.corp.adobe.com
+NSLOOKUP;cstraffic-ap2.share.corp.adobe.com
+NSLOOKUP;cstraffic-eu1.share.corp.adobe.com
+NSLOOKUP;cstraffic-eu2.share.corp.adobe.com
+NSLOOKUP;cstraffic-us1.share.corp.adobe.com
+NSLOOKUP;cstraffic-us2.share.corp.adobe.com
+NSLOOKUP;cstraffic-us3.share.corp.adobe.com
+
+
+
+
+
+
+
